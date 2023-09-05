@@ -56,3 +56,50 @@
 	max-width: 40em;
 	border: 1em solid rgb(54, 163, 160);
 }
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* body {
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+div {
+	width: 10em;
+	height: 1em;
+	background-color: #6C7BA0;
+} */
+
+.c1, .c2, .c3, .c4, .c5 {
+	width: 16em;
+	height: 2em;
+	background-color: #6C7BA0;
+}
+.c1 { height: 1em;}
+
+.c2 {
+	background-color: #7994D8;
+	width: 8em;
+}
+
+.c3 {
+	background-color: #79B2D8;
+	width: 7em;
+	margin-left: 5em;
+}
+
+.c4 {
+	background-color: #67B9F0;
+	width: 7em;
+	margin-left: 9em;
+	height: 4em;
+}
+
+.c5 {
+	background-color: #4B7CEA;
+	width: 12em;
+}
