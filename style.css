@@ -103,3 +103,38 @@ div {
 	background-color: #4B7CEA;
 	width: 12em;
 }
+
+main {
+	padding: 1em;
+}
+main p {
+	/* height: 1em; */
+	background-color: pink;
+	margin: 0.5em;
+}
+main > p {
+	border: 0.5em solid rgb(159, 77, 90);
+}
+main > div > p {
+	border: 0.5em dashed rgb(159, 77, 90);
+}
+p + p {
+	background-color: lime;
+}
+p + div {
+	border: 0.5em dotted lime;
+}
+main p:hover {
+	background-color: rgb(244, 234, 234);
+	cursor: pointer;
+}
+
+ol {
+	margin-bottom: 10em;
+}
+ol > li {
+	background-color: rgb(204, 237, 193);
+}
+ol > li:nth-child(odd) {
+	background-color: rgb(110, 208, 110);
+}
