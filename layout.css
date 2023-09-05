@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: red;
+	font-size: 1.8em;
+}
+
+p {
+	margin: 0.5em;
+}
+
+header,
+footer,
+main {
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+header {
+	background-color: #30AF62;
+	height: 20vh;
+}
+
+main {
+	background-color: #CEEAB3;
+	height: 50vh;
+}
+
+footer {
+	background-color: #0E3E10;
+	color: #C9F2CA;
+	height: 30vh;
+}
