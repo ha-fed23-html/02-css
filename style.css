@@ -1,0 +1,58 @@
+.container {
+	display: none;
+	/* display: flex; */
+	/* Flexbox går vi igenom på nästa lektion */
+}
+
+.box {
+	background-color: orange;
+	width: 8em;
+	height: 4em;
+	margin: 0.5em;
+}
+
+.frame {
+	border: 1px solid black;
+	background-color: lightgray;
+	padding: 0.5em;
+	margin: 1em;
+}
+
+.size-1, .size-2 {
+	box-sizing: border-box;
+	background-color: #c49bb1;
+	width: 8em;
+	height: 4em;
+	padding: 0.5em;
+}
+.size-1 {
+	border: 1em solid #af5c14;
+	
+}
+.size-2 {
+	/* margin-left: 1em; */
+	border: 0.3em solid #af5c14;
+}
+
+.sizing-container {
+	border: 1em solid rgb(211, 211, 16);
+	width: 14em;
+	height: 7em;
+	overflow-y: scroll;
+}
+.sizing-content {
+	border: 1em solid rgb(23, 23, 224);
+	/* width: 14em; */
+	/* height: 9em; */
+}
+
+* {
+	/* border: 3px dotted pink; */
+	box-sizing: border-box;
+}
+
+.min-max {
+	min-width: 30em;
+	max-width: 40em;
+	border: 1em solid rgb(54, 163, 160);
+}
